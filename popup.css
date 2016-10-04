@@ -1,0 +1,48 @@
+.ui-autocomplete-category {
+  font-weight: bold;
+  padding: .2em .4em;
+  margin: .8em 0 .2em;
+  line-height: 1.5;
+}
+
+body {
+  width: 300px;
+  height: 400px;
+}
+
+.searchField{
+  background:url('img/searchBg.gif') repeat-x;
+  font-size: 100%;
+  height: 26px;
+  line-height:23px;
+  width: 261px;
+  border:none;
+  padding:0 0 0 4px;
+  padding-top:5px;
+  margin:0;
+  float:left;
+  color:#777;
+}
+
+.searchStart{
+  height: 26px ;
+  width: 24px;
+  background:url('img/searchStart.gif') no-repeat;
+  display:block;
+  cursor:pointer;
+  float:left;
+}
+
+.searchEnd{
+  height: 26px;
+  width: 15px;
+  background:url('img/searchEnd.gif') no-repeat;
+  display:block;
+  float:left;
+}
+
+#feedback { font-size: 1.4em; }
+.section_content .ui-selecting { background: #FECA40; }
+.section_content .ui-selected { background: #F39814; color: white; }
+.section_content { list-style-type: none; margin: 0; padding: 0; width: 97%; }
+.section_content li { margin: 4px; padding: 0.7em; font-size: 1.0em; height: 18px; }
